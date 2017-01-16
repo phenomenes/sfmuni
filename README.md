@@ -19,6 +19,8 @@ The `kubebernetes.yml` definition provides three services:
 ## Run
 
 ```
+go get github.com/phenomenes/sfmuni
+cd $GOPATH/src/phenomenes/sfmuni
 kubectl -f ./kubernetes.yml
 ```
 
